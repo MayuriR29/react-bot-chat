@@ -1,0 +1,67 @@
+
+#chat-icon {
+    width: 54px;
+    height: 54px;
+    background: #F33;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.4);
+  }
+  .chat-spinner {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .chat-intro {
+    opacity: 0;
+  }
+  
+  .chat-launcher {
+    width: 57px;
+    height: 57px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+  }
+    .chat-launcher .chat-intro {
+      width: 125px;
+      padding: 8px 12px;
+      background-color: #fff;
+      border-radius: 5px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      right: 40px;
+      bottom: 110px;
+      -webkit-box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.4);
+      box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.4);
+      position: fixed;
+      box-sizing: border-box;
+      font-weight: 500;
+      font-family: Arial;
+      color: #F33;
+      text-decoration: none;
+      font-size: 14px;
+      -webkit-font-smoothing: antialiased;
+    }
+    .chat-launcher .chat-intro::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      bottom: -3px;
+      right: 15px;
+      box-sizing: border-box;
+      border: 6px solid black;
+      transform-origin: 0 0;
+      transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      -webkit-box-shadow: rgba(0, 0, 0, 0.3) 1.5px 1.5px 1.5px;
+      -moz-box-shadow: rgba(0, 0, 0, 0.3) 1.5px 1.5px 1.5px;
+      box-shadow: rgba(0, 0, 0, 0.3) 1.5px 1.5px 1.5px;
+      border-color: transparent #fff #fff transparent;
+    } 
+  
