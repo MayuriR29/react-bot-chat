@@ -64,4 +64,7 @@
       box-shadow: rgba(0, 0, 0, 0.3) 1.5px 1.5px 1.5px;
       border-color: transparent #fff #fff transparent;
     } 
-  
+    .wc-bizchat-img {
+        height: 50px;
+        width: 50px;
+      }
