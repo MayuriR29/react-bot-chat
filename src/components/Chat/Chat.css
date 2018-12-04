@@ -68,3 +68,16 @@
         height: 50px;
         width: 50px;
       }
+      .wc-header {
+        background-color: #F33;
+        box-shadow: 0 1px#e4ddd5;
+        box-sizing: content-box;
+        color: #ffffff;
+        left: 0;
+        letter-spacing: 0.5px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 10;
+        min-height: 48px;
+    }
