@@ -14,9 +14,12 @@
   }
   
   .chat-intro {
-    opacity: 0;
+    opacity: 1;
   }
-  
+  .chat-intro.chat-text {
+    right: 0px ;
+    bottom: 68px ;
+  }
   .chat-launcher {
     width: 57px;
     height: 57px;
@@ -27,7 +30,7 @@
   }
     .chat-launcher .chat-intro {
       width: 125px;
-      padding: 8px 12px;
+      padding: 8px 8px;
       background-color: #fff;
       border-radius: 5px;
       -moz-border-radius: 5px;
@@ -81,7 +84,9 @@
         z-index: 10;
         min-height: 48px;
     }
-
+.chat-launcher-display{
+  display:block;
+}
     
 img {
   vertical-align: middle; }

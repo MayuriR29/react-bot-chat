@@ -5,7 +5,7 @@ class App extends React.Component {
   public render() {
     return (
       <div>
-        <Chat />
+        <Chat isChatResumed={false}/>
       </div>
     );
   }
