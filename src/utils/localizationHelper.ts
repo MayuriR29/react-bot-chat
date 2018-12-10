@@ -1,4 +1,4 @@
-export function getLocalizationValue(textKey: string, clientLanguage: string) {
+export const getLocalizationValue=(textKey: string, clientLanguage: string)=> {
     try {
         if (!clientLanguage) {clientLanguage = "en"};
         const textValues = localizationStrings[textKey];

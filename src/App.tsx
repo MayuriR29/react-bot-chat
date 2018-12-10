@@ -1,5 +1,5 @@
 import * as React from "react";
-import Chat from "./components/Chat/Chat";
+import Chat from "./components/chat/Chat";
 
 class App extends React.Component {
   public render() {

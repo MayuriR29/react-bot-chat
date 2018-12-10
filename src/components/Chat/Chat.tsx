@@ -1,5 +1,6 @@
 import * as React from "react";
 import "./Chat.css";
+import  * as localizationHelper from "../../utils/localizationHelper";
 
 export interface IChatProps {
   locale?: string;
@@ -22,7 +23,7 @@ export default class Chat extends React.Component<IChatProps, IChatStates> {
       <div className="chat-launcher-display">
       <div id="chat-launcher" className="chat-launcher">
         <div className="chat-spinner">
-          <div id="chat-text" className="chat-intro chat-bounce">May I Help You?</div>
+          <div id="chat-text" className="chat-intro chat-bounce">{localizationHelper.getLocalizationValue("intro", 'en')}</div>
           <div id="chat-icon" className="chat-slideup">
             <img 
               src={this.state.chatIcon}
